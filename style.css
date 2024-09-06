@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.player-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 3000px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.music-info {
+    margin-bottom: 20px;
+}
+
+#title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#artist {
+    font-size: 14px;
+    color: #666;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Progress bar and time display styles */
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    flex: 1;
+    margin: 0 10px;
+}
+
+#current-time, #total-time {
+    font-size: 14px;
+    color: #333;
+}

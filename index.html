@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="player-container">
+        <h1>Music Player by Murtaza</h1>
+        <div class="music-info">
+            <h2 id="title">Song Title</h2>
+            <p id="artist">Artist Name</p>
+        </div>
+        <audio id="audio" src="song1.mp3"></audio>
+        <div class="controls">
+            <button id="prev" class="btn">Prev</button>
+            <button id="rewind" class="btn">Rewind</button>
+            <button id="play" class="btn">Play</button>
+            <button id="forward" class="btn">Forward</button>
+            <button id="next" class="btn">Next</button>
+        </div>
+
+        <!-- Progress bar and time display -->
+        <div class="progress-container">
+            <span id="current-time">00:00</span>
+            <input type="range" id="progress-bar" class="progress-bar" value="0" min="0" max="100">
+            <span id="total-time">00:00</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
